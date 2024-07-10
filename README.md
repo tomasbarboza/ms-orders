@@ -16,5 +16,10 @@ yarn
 yarn start:dev
 ```
 
+## Running the tests
+```bash
+yarn test
+```
+
 
 
