@@ -14,6 +14,9 @@ steps:
       'southamerica-west1-docker.pkg.dev/tienda-microservices-429001/image-registry/orders-ms',
     ]
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 availableSecrets:
   secretManager:
   - versionName: projects/184206400683/secrets/orders_database_url/versions/1
